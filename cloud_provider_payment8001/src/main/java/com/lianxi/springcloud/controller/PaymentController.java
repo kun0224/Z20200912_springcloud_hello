@@ -3,7 +3,6 @@ package com.lianxi.springcloud.controller;
 import com.lianxi.springcloud.entities.CommonResult;
 import com.lianxi.springcloud.entities.Payment;
 import com.lianxi.springcloud.service.PaymentService;
-import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

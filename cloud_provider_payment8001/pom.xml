@@ -54,6 +54,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.lianxi.springcloud</groupId>
+            <artifactId>cloud_api_commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 
 
