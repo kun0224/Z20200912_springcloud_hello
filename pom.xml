@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lianxi.springcloud</groupId>
+    <groupId>com.lianxi.com.lianxi.springcloud</groupId>
     <artifactId>Z20200912_springcloud_hello</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -13,6 +13,8 @@
         <module>cloud_provider_payment8001</module>
         <module>cloud_consumer_order80</module>
         <module>cloud_api_commons</module>
+        <module>cloud_eureka_server7001</module>
+        <module>cloud_provider_payment8002</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

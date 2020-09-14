@@ -16,7 +16,7 @@ public class PaymentController {
     PaymentService paymentService;
 
     @Value("${server.port}")
-    String post;
+    String port;
 
     /**
      * 插入
@@ -65,9 +65,9 @@ public class PaymentController {
         Payment paymentById = paymentService.getPaymentById(id);
         CommonResult<Payment> result = new CommonResult<Payment>();
         result.setCode(666);
-        result.setMessage("查询成功"+post);
+        result.setMessage("查询成功"+port);
         result.setData(paymentById);
-        log.debug("pory====>"+post);
+        log.debug("pory====>"+port);
         return result;
     }
 
